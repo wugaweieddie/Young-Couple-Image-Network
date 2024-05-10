@@ -61,8 +61,12 @@ html {
 
                             // min-height: 40vw;
                             .card {
-                                box-shadow: 5px 5px 5px #ebeb61;
-
+                                box-shadow: 5px 5px 5px #000000;
+                                .card-header{
+                                    h5{
+                                        font-weight: bolder;
+                                    }
+                                }
                                 .card-body {
                                     cursor: pointer;
                                     box-shadow: 0px 3px 5px #3c3c3c;
@@ -896,34 +900,7 @@ html {
         }
     }
 
-    //登入後清單
-    .main6 {
-        .container {
-            .row {
-                table {
-                    thead {
-                        tr {
-                            th {
-                                font-size: 1.5rem;
-                                line-height: 1rem;
-                                text-align: center;
-                            }
-                        }
-                    }
 
-                    tbody {
-                        tr {
-                            td {
-                                font-size: 1.25rem;
-                                line-height: 2rem;
-                                text-align: center;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
 
     // 頁尾
     .footer {
@@ -950,6 +927,14 @@ html {
 // 響應式
 @media screen and (max-width:992px) {
     body {
+        .toTop-arrow {
+            img {
+                width: 5rem;
+                height: 5rem;
+                margin-right: 15px;
+                opacity: 0.7;
+            }
+        }
         header {
             nav {
                 .logo {
@@ -1116,31 +1101,4 @@ html {
         }
     }
 
-    //登入後清單
-    .main6 {
-        .container {
-            .row {
-                table {
-                    thead {
-                        display: none;
-                    }
-
-                    tbody {
-                        tr {
-                            td {
-                                display: block;
-
-                                &::before {
-                                    content: attr(data-th) ":";
-                                    color: var(--mycolor8);
-                                    font-weight: 600;
-                                    display: block;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
 }
