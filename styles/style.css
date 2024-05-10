@@ -7,6 +7,7 @@ html {
 body header nav .logo .navbar-brand img,
 html header nav .logo .navbar-brand img {
   width: 8vw;
+  filter: drop-shadow(5px 5px rgb(83, 87, 82));
 }
 body header nav .logo .navbar-brand .logotext,
 html header nav .logo .navbar-brand .logotext {
@@ -57,6 +58,7 @@ html .toTop-arrow img {
   right: -1rem;
   bottom: 1rem;
   z-index: 99;
+  filter: drop-shadow(5px 5px black);
 }
 body .toTop-arrow.hide,
 html .toTop-arrow.hide {
