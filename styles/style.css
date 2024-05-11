@@ -134,6 +134,20 @@ html .main1 .container .row .section1 .content1 .row .card .card-body .cardimg4 
   background-size: cover;
   height: 100px;
 }
+body .main1 .container .row .section1 .content1 .row .card .card-footer .salemon1,
+html .main1 .container .row .section1 .content1 .row .card .card-footer .salemon1 {
+  text-decoration: line-through;
+  font-size: 20px;
+}
+body .main1 .container .row .section1 .content1 .row .card .card-footer .saletext,
+html .main1 .container .row .section1 .content1 .row .card .card-footer .saletext {
+  color: red;
+  font-weight: bolder;
+  font-size: 26px;
+  text-align: center;
+  animation: salemon 2s linear infinite;
+  border-radius: 50%;
+}
 body .main1 .container .row .section1 .content2,
 html .main1 .container .row .section1 .content2 {
   min-height: 40vw;
@@ -827,6 +841,14 @@ html .footer p {
   font-size: 1rem;
 }
 
+@keyframes salemon {
+  0% {
+    background-color: yellow;
+  }
+  100% {
+    background-color: black;
+  }
+}
 @media screen and (max-width: 992px) {
   body .toTop-arrow img {
     width: 5rem;

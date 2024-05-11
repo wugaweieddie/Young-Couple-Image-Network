@@ -99,6 +99,20 @@ html {
                                         height: 100px;
                                     }
                                 }
+                                .card-footer{
+                                    .salemon1{
+                                        text-decoration: line-through;
+                                        font-size: 20px;
+                                    }
+                                    .saletext{
+                                        color: red;
+                                        font-weight: bolder;
+                                        font-size: 26px;
+                                        text-align: center;
+                                        animation: salemon 2s linear infinite;
+                                        border-radius: 50%;
+                                    }
+                                }
                             }
                         }
                     }
@@ -921,7 +935,14 @@ html {
 }
 
 
-
+@keyframes salemon {
+    0%{
+        background-color:yellow;
+    }
+    100%{
+        background-color: black;
+    }
+}
 
 
 // 響應式
