@@ -117,38 +117,39 @@ html .main1 .container .row .section1 .content1 .row .card .card-body .cardimg1 
 }
 body .main1 .container .row .section1 .content1 .row .card .card-body .cardimg2,
 html .main1 .container .row .section1 .content1 .row .card .card-body .cardimg2 {
-  background-image: url(../images/dirver2.png);
+  background-image: url(../images/newsimg4.jpg);
   background-position: center center;
   background-size: cover;
   height: 100px;
 }
 body .main1 .container .row .section1 .content1 .row .card .card-body .cardimg3,
 html .main1 .container .row .section1 .content1 .row .card .card-body .cardimg3 {
-  background-image: url(../images/fruit5.jpg);
+  background-image: url(../images/newsimg3.jpg);
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
   height: 100px;
 }
 body .main1 .container .row .section1 .content1 .row .card .card-body .cardimg4,
 html .main1 .container .row .section1 .content1 .row .card .card-body .cardimg4 {
-  background-image: url(../images/premium.avif);
+  background-image: url(../images/newsimg.jpg);
   background-position: center center;
   background-size: cover;
   height: 100px;
 }
-body .main1 .container .row .section1 .content1 .row .card .card-footer .salemon1,
-html .main1 .container .row .section1 .content1 .row .card .card-footer .salemon1 {
-  text-decoration: line-through;
-  font-size: 20px;
-}
-body .main1 .container .row .section1 .content1 .row .card .card-footer .saletext,
-html .main1 .container .row .section1 .content1 .row .card .card-footer .saletext {
-  color: red;
-  font-weight: bolder;
-  font-size: 26px;
+body .main1 .container .row .section1 .content1 .row .card .card-footer h3,
+html .main1 .container .row .section1 .content1 .row .card .card-footer h3 {
   text-align: center;
-  animation: salemon 2s linear infinite;
-  border-radius: 50%;
+  font-weight: 900;
+}
+body .main1 .container .row .section1 .content1 .row .card .card-footer p,
+html .main1 .container .row .section1 .content1 .row .card .card-footer p {
+  text-align: center;
+  font-weight: 900;
+  font-size: 24px;
+}
+body .main1 .container .row .section1 .content1 .row .card .card-footer span,
+html .main1 .container .row .section1 .content1 .row .card .card-footer span {
+  font-size: 18px;
 }
 body .main1 .container .row .section1 .content2,
 html .main1 .container .row .section1 .content2 {
@@ -269,14 +270,12 @@ body .main1 .container .bottompar .section2,
 html .main1 .container .bottompar .section2 {
   min-height: 40vw;
 }
-body .main1 .container .bottompar .section2 .par2leftimg,
-html .main1 .container .bottompar .section2 .par2leftimg {
-  min-height: 20vw;
-  background-image: url(../images/fruit4.jpg);
-  opacity: 0.7;
-  background-position: center center;
-  background-size: cover;
-  border-radius: 20%;
+body .main1 .container .bottompar .section2 .videotitle,
+html .main1 .container .bottompar .section2 .videotitle {
+  text-align: center;
+  font-weight: 700;
+  color: white;
+  font-size: 1.8rem;
 }
 body .main1 .container .bottompar .section2 .par2leftbottom,
 html .main1 .container .bottompar .section2 .par2leftbottom {
@@ -872,9 +871,6 @@ html .footer p {
     font-weight: bolder;
     margin-top: 10px;
   }
-  body .main1 .container .bottompar {
-    display: none;
-  }
   body .main2 .section1 {
     display: flex;
     flex-direction: row;
@@ -895,9 +891,6 @@ html .footer p {
     display: flex;
     flex-direction: column;
     justify-content: end;
-  }
-  main .container .bottompar .section2 .par2leftimg {
-    display: none;
   }
   main .container .bottompar .section2 .par2leftbottom .icon img {
     min-width: 10vw;

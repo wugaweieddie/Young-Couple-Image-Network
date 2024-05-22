@@ -81,38 +81,38 @@ html {
                                     }
 
                                     .cardimg2 {
-                                        background-image: url(../images/dirver2.png);
+                                        background-image: url(../images/newsimg4.jpg);
                                         background-position: center center;
                                         background-size: cover;
                                         height: 100px;
                                     }
 
                                     .cardimg3 {
-                                        background-image: url(../images/fruit5.jpg);
+                                        background-image: url(../images/newsimg3.jpg);
                                         background-position: center center;
-                                        background-size: cover;
+                                        background-size:contain;
                                         height: 100px;
                                     }
 
                                     .cardimg4 {
-                                        background-image: url(../images/premium.avif);
+                                        background-image: url(../images/newsimg.jpg);
                                         background-position: center center;
                                         background-size: cover;
                                         height: 100px;
                                     }
                                 }
                                 .card-footer{
-                                    .salemon1{
-                                        text-decoration: line-through;
-                                        font-size: 20px;
-                                    }
-                                    .saletext{
-                                        color: red;
-                                        font-weight: bolder;
-                                        font-size: 26px;
+                                    h3{
                                         text-align: center;
-                                        animation: salemon 2s linear infinite;
-                                        border-radius: 50%;
+                                        font-weight: 900;
+                                    }
+                                    p{
+                                        text-align: center;
+                                        font-weight: 900;
+                                        font-size: 24px;
+                                    }
+                                    span{
+                                        font-size: 18px;
                                     }
                                 }
                             }
@@ -242,22 +242,21 @@ html {
                     }
                 }
             }
-
             // 下面第二塊內容
+            
             .bottompar {
-
                 // 左邊的內容
                 .section2 {
                     min-height: 40vw;
                     // border: 1px solid red;
-
+                    .videotitle {
+                        text-align: center;
+                        font-weight: 700;
+                        color: white;
+                        font-size: 1.8rem;
+                    }
                     .par2leftimg {
-                        min-height: 20vw;
-                        background-image: url(../images/fruit4.jpg);
-                        opacity: 0.7;
-                        background-position: center center;
-                        background-size: cover;
-                        border-radius: 20%;
+                        
                     }
 
                     .par2leftbottom {
@@ -981,11 +980,7 @@ html {
             }
         }
         .main1{
-            .container{
-                .bottompar{
-                    display: none;
-                }
-            }
+            
         }
         // 關於我們版面
         .main2 {
@@ -1032,7 +1027,7 @@ html {
                     justify-content: end;
 
                     .par2leftimg {
-                        display: none;
+                        
                     }
 
                     .par2leftbottom {
