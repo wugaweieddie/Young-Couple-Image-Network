@@ -10,8 +10,14 @@
     <link rel="stylesheet" href="./styles/bootstrap.min.css">
     <link rel="shortcut icon" href="./images/titleimg3.png">
     <style>
-        .navtitle{
-            background: linear-gradient(135deg,var(--mycolor8),var(--mycolor1));
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        .navtitle {
+            background-color: #fce35d;
         }
     </style>
 </head>
@@ -27,7 +33,7 @@
             <div class="container-fluid logo">
                 <a class="navbar-brand" href="./index.html">
                     <img class="rtopimg" src="./images/titleimg3.png" alt="百香果B2C">
-                    <p class="logotext">小夫妻百香果</p>
+                    <p class="logotext text-black">小夫妻百香果</p>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -36,10 +42,12 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link" aria-current="page" href="./index.html">小夫妻百香果</a>
+                        <a class="nav-link " aria-current="page" href="./index.html">小夫妻百香果</a>
                         <a class="nav-link" href="./about.html" target="_self">關於我們</a>
                         <a class="nav-link text-danger" href="./product.html" target="_self">產品介紹</a>
-                        <a class="nav-link" href="https://docs.google.com/forms/d/1KEaFuFnGU563rzVTHBd2TWn09clLImiTMLnm7XSrsv0/closedform" target="_blank">來去購買</a>
+                        <a class="nav-link"
+                            href="https://docs.google.com/forms/d/1KEaFuFnGU563rzVTHBd2TWn09clLImiTMLnm7XSrsv0/closedform"
+                            target="_blank">來去購買</a>
                         <a class="nav-link" href="./contactus.html" target="_self">聯絡我們</a>
                     </div>
                 </div>
@@ -229,11 +237,19 @@
                     }
                 });
 
-                $("#area").mouseover(function(){
-                    $("#area").css("opacity","1");
+                $("#area").mouseover(function () {
+                    $("#area").css("opacity", "1");
                 });
             });
-            
+
+            let header = document.querySelector("header");
+            window.addEventListener("scroll", () => {
+                if (window.pageYOffset != 0) {
+                    header.style = "box-shadow:3px 3px 5px 1px #000"
+                } else {
+                    header.style = "box-shadow:none"
+                }
+            });
         </script>
 </body>
 

@@ -23,7 +23,7 @@
                      a {
                          font-size: 1.5rem;
                          font-weight: bolder;
-                         color: var(--mycolor7);
+                         color: black;
                          margin-right: 40px;
                          position: relative;
 
@@ -41,7 +41,6 @@
                          &:hover::after {
                              width: 100%;
                          }
-
                      }
                  }
              }

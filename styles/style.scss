@@ -29,9 +29,9 @@ html {
     // 首頁的main
     .main1 {
         min-height: 85vw;
-        background-image: url(../images/bg-1.jpg);
-        background-position: center center;
-        background-size: cover;
+        background-color: #689C97;
+        // background-position: center center;
+        // background-size: cover;
 
         // 首頁主要區
         .container {
@@ -42,12 +42,13 @@ html {
                     // 首頁左邊欄位
                     .content1 {
                         min-height: 40vw;
-                        background: linear-gradient(330deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7));
+                        // background: linear-gradient(330deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7));
                         border-radius: 10%;
                         padding-bottom: 10px;
 
                         .contitle {
                             margin-top: 10px;
+                            text-shadow: 2px 2px 5px black;
 
                             h4 {
                                 color: rgb(255, 255, 255);
@@ -63,6 +64,7 @@ html {
                             .card {
                                 box-shadow: 5px 5px 5px #000000;
                                 .card-header{
+                                    background-color:#D1EDE1 ;
                                     h5{
                                         font-weight: bolder;
                                     }
@@ -978,7 +980,13 @@ html {
                 }
             }
         }
-
+        .main1{
+            .container{
+                .bottompar{
+                    display: none;
+                }
+            }
+        }
         // 關於我們版面
         .main2 {
             .section1 {
@@ -993,7 +1001,6 @@ html {
                         .part2 {
                             .timeline {
                                 .sbox {
-
                                     .simg {
                                         height: 30vw;
                                         width: 30vw;
