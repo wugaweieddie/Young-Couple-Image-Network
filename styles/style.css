@@ -7,7 +7,6 @@ html {
 body header nav .logo .navbar-brand img,
 html header nav .logo .navbar-brand img {
   width: 8vw;
-  filter: drop-shadow(5px 5px rgb(83, 87, 82));
 }
 body header nav .logo .navbar-brand .logotext,
 html header nav .logo .navbar-brand .logotext {
@@ -58,7 +57,6 @@ html .toTop-arrow img {
   right: -1rem;
   bottom: 1rem;
   z-index: 99;
-  filter: drop-shadow(5px 5px black);
 }
 body .toTop-arrow.hide,
 html .toTop-arrow.hide {
@@ -331,7 +329,7 @@ html .main1 .container .bottompar .bottomtextr .col-12 p {
 }
 body .main2,
 html .main2 {
-  background-image: url(../images/big.jpg);
+  background-image: url(../images/aubg3.png);
   min-height: 100vw;
   background-position: center center;
   background-size: cover;
@@ -364,6 +362,7 @@ html .main2 .container .row .section1 .box .title2 h2 {
 body .main2 .container .row .section1 .box .part1 .left,
 html .main2 .container .row .section1 .box .part1 .left {
   min-height: 19.5vw;
+  margin-top: 30px;
 }
 body .main2 .container .row .section1 .box .part1 .left .leftbox,
 html .main2 .container .row .section1 .box .part1 .left .leftbox {
@@ -372,19 +371,23 @@ html .main2 .container .row .section1 .box .part1 .left .leftbox {
   flex-direction: row;
   align-items: center;
 }
+body .main2 .container .row .section1 .box .part1 .left .leftbox .tiltetext,
+html .main2 .container .row .section1 .box .part1 .left .leftbox .tiltetext {
+  color: red;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
 body .main2 .container .row .section1 .box .part1 .left .leftbox .imgout,
 html .main2 .container .row .section1 .box .part1 .left .leftbox .imgout {
-  min-height: 200px;
-  min-width: 200px;
+  min-height: 300px;
+  min-width: 300px;
   margin: 0 30px;
-  border-radius: 50%;
   overflow: hidden;
 }
 body .main2 .container .row .section1 .box .part1 .left .leftbox .imgout img,
 html .main2 .container .row .section1 .box .part1 .left .leftbox .imgout img {
-  border-radius: 50%;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
 }
 body .main2 .container .row .section1 .box .part1 .left .leftbox .imgout img:hover,
 html .main2 .container .row .section1 .box .part1 .left .leftbox .imgout img:hover {
@@ -502,12 +505,11 @@ html .main2 .container .row .section1 .box .row .part2 .timeline .col-12 {
 }
 body .main2 .container .row .section1 .box .row .part2 .timeline .col-12 .img1,
 html .main2 .container .row .section1 .box .row .part2 .timeline .col-12 .img1 {
-  min-height: 10vw;
+  min-height: 15vw;
   min-width: 2vw;
-  background-image: url(../百香果生長圖片/修過/1.png);
+  background-image: url(../images/aboutright1.jpg);
   background-position: center center;
   background-size: cover;
-  border-radius: 50%;
 }
 body .main2 .container .row .section1 .box .row .part2 .timeline .col-12 .text1,
 html .main2 .container .row .section1 .box .row .part2 .timeline .col-12 .text1 {
@@ -521,7 +523,7 @@ body .main2 .container .row .section1 .box .row .part2 .timeline .col-12 .img2,
 html .main2 .container .row .section1 .box .row .part2 .timeline .col-12 .img2 {
   min-height: 10vw;
   min-width: 2vw;
-  background-image: url(../百香果生長圖片/2.jpg);
+  background-image: url(../images/aboutright2.jpg);
   background-position: center center;
   background-size: cover;
   border-radius: 10%;
@@ -539,7 +541,7 @@ body .main2 .container .row .section1 .box .row .part2 .timeline .col-12 .img3,
 html .main2 .container .row .section1 .box .row .part2 .timeline .col-12 .img3 {
   min-height: 10vw;
   min-width: 2vw;
-  background-image: url(../百香果生長圖片/3.jpg);
+  background-image: url(../images/aboutright3.jpg);
   background-position: center center;
   background-size: cover;
   border-radius: 50%;
@@ -554,12 +556,11 @@ html .main2 .container .row .section1 .box .row .part2 .timeline .col-12 .text3 
 }
 body .main2 .container .row .section1 .box .row .part2 .timeline .col-12 .img4,
 html .main2 .container .row .section1 .box .row .part2 .timeline .col-12 .img4 {
-  min-height: 10vw;
+  min-height: 13vw;
   min-width: 2vw;
-  background-image: url(../百香果生長圖片/4.jpg);
+  background-image: url(../images/newsimg3.jpg);
   background-position: bottom center;
   background-size: cover;
-  border-radius: 10%;
 }
 body .main2 .container .row .section1 .box .row .part2 .timeline .col-12 .text4,
 html .main2 .container .row .section1 .box .row .part2 .timeline .col-12 .text4 {

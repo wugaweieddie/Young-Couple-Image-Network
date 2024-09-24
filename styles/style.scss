@@ -18,7 +18,7 @@ html {
             right: -1rem;
             bottom: 1rem;
             z-index: 99;
-            filter: drop-shadow(5px 5px black);
+            // filter: drop-shadow(5px 5px black);
         }
 
         &.hide {
@@ -63,12 +63,15 @@ html {
                             // min-height: 40vw;
                             .card {
                                 box-shadow: 5px 5px 5px #000000;
-                                .card-header{
-                                    background-color:#D1EDE1 ;
-                                    h5{
+
+                                .card-header {
+                                    background-color: #D1EDE1;
+
+                                    h5 {
                                         font-weight: bolder;
                                     }
                                 }
+
                                 .card-body {
                                     cursor: pointer;
                                     box-shadow: 0px 3px 5px #3c3c3c;
@@ -90,7 +93,7 @@ html {
                                     .cardimg3 {
                                         background-image: url(../images/newsimg3.jpg);
                                         background-position: center center;
-                                        background-size:contain;
+                                        background-size: contain;
                                         height: 100px;
                                     }
 
@@ -101,17 +104,20 @@ html {
                                         height: 100px;
                                     }
                                 }
-                                .card-footer{
-                                    h3{
+
+                                .card-footer {
+                                    h3 {
                                         text-align: center;
                                         font-weight: 900;
                                     }
-                                    p{
+
+                                    p {
                                         text-align: center;
                                         font-weight: 900;
                                         font-size: 24px;
                                     }
-                                    span{
+
+                                    span {
                                         font-size: 18px;
                                     }
                                 }
@@ -242,12 +248,15 @@ html {
                     }
                 }
             }
+
             // 下面第二塊內容
-            
+
             .bottompar {
+
                 // 左邊的內容
                 .section2 {
                     min-height: 40vw;
+
                     // border: 1px solid red;
                     .videotitle {
                         text-align: center;
@@ -255,9 +264,8 @@ html {
                         color: white;
                         font-size: 1.8rem;
                     }
-                    .par2leftimg {
-                        
-                    }
+
+                    .par2leftimg {}
 
                     .par2leftbottom {
                         background: linear-gradient(180deg, rgba(30, 212, 173, 0.2), rgba(206, 194, 194, 0.7)), url(../images/bottombg.jpg);
@@ -323,14 +331,13 @@ html {
 
     // 關於的main
     .main2 {
-        background-image: url(../images/big.jpg);
+        background-image: url(../images/aubg3.png);
         min-height: 100vw;
         background-position: center center;
         background-size: cover;
 
         .container {
             .row {
-
                 .section1 {
                     display: flex;
                     flex-direction: row;
@@ -361,26 +368,30 @@ html {
                         .part1 {
                             .left {
                                 min-height: 19.5vw;
-
+                                margin-top: 30px;
                                 .leftbox {
                                     min-height: 19.5vw;
                                     display: flex;
                                     flex-direction: row;
                                     align-items: center;
 
+                                    .tiltetext {
+                                        color: red;
+                                        font-size: 1.5rem;
+                                        font-weight: bolder;
+                                    }
                                     .imgout {
-                                        min-height: 200px;
-                                        min-width: 200px;
+                                        min-height: 300px;
+                                        min-width: 300px;
                                         margin: 0 30px;
-                                        border-radius: 50%;
+                                        // border-radius: 50%;
                                         // border: 1px red solid;
                                         overflow: hidden;
 
                                         img {
-                                            border-radius: 50%;
-                                            height: 200px;
-                                            width: 200px;
-
+                                            // border-radius: 50%;
+                                            height: 300px;
+                                            width: 300px;
                                             &:hover {
                                                 transform: scale(1.2);
                                                 transition: 1s;
@@ -510,12 +521,12 @@ html {
                                         font-size: 1.25rem;
 
                                         .img1 {
-                                            min-height: 10vw;
+                                            min-height: 15vw;
                                             min-width: 2vw;
-                                            background-image: url(../百香果生長圖片/修過/1.png);
+                                            background-image: url(../images/aboutright1.jpg);
                                             background-position: center center;
                                             background-size: cover;
-                                            border-radius: 50%;
+                                            // border-radius: 50%;
                                             // border: 1px solid red;
                                         }
 
@@ -531,7 +542,7 @@ html {
                                         .img2 {
                                             min-height: 10vw;
                                             min-width: 2vw;
-                                            background-image: url(../百香果生長圖片/2.jpg);
+                                            background-image: url(../images/aboutright2.jpg);
                                             background-position: center center;
                                             background-size: cover;
                                             border-radius: 10%;
@@ -552,7 +563,7 @@ html {
                                         .img3 {
                                             min-height: 10vw;
                                             min-width: 2vw;
-                                            background-image: url(../百香果生長圖片/3.jpg);
+                                            background-image: url(../images/aboutright3.jpg);
                                             background-position: center center;
                                             background-size: cover;
                                             border-radius: 50%;
@@ -569,12 +580,12 @@ html {
                                         }
 
                                         .img4 {
-                                            min-height: 10vw;
+                                            min-height: 13vw;
                                             min-width: 2vw;
-                                            background-image: url(../百香果生長圖片/4.jpg);
+                                            background-image: url(../images/newsimg3.jpg);
                                             background-position: bottom center;
                                             background-size: cover;
-                                            border-radius: 10%;
+                                            // border-radius: 10%;
                                             // border: 1px solid red;
                                         }
 
@@ -890,13 +901,15 @@ html {
                                 height: 80%;
                                 width: 80%;
                                 border-radius: 20%;
-                                &:hover{
+
+                                &:hover {
                                     border: 5px solid white;
                                 }
                             }
-                            &:hover{
+
+                            &:hover {
                                 opacity: 0.7;
-                                
+
                             }
                         }
 
@@ -937,10 +950,11 @@ html {
 
 
 @keyframes salemon {
-    0%{
-        background-color:yellow;
+    0% {
+        background-color: yellow;
     }
-    100%{
+
+    100% {
         background-color: black;
     }
 }
@@ -957,6 +971,7 @@ html {
                 opacity: 0.7;
             }
         }
+
         header {
             nav {
                 .logo {
@@ -979,9 +994,9 @@ html {
                 }
             }
         }
-        .main1{
-            
-        }
+
+        .main1 {}
+
         // 關於我們版面
         .main2 {
             .section1 {
@@ -1026,9 +1041,7 @@ html {
                     flex-direction: column;
                     justify-content: end;
 
-                    .par2leftimg {
-                        
-                    }
+                    .par2leftimg {}
 
                     .par2leftbottom {
                         .icon {
@@ -1091,12 +1104,13 @@ html {
             }
         }
     }
+
     //購買頁面
-    .main5{
-        .container{
-            .row{
-                .col-md-8{
-                    .iframes{
+    .main5 {
+        .container {
+            .row {
+                .col-md-8 {
+                    .iframes {
                         height: 80vw !important;
                         width: 100vw;
                     }
@@ -1104,6 +1118,7 @@ html {
             }
         }
     }
+
     // 聯絡我們
     .main4 {
         .container {
