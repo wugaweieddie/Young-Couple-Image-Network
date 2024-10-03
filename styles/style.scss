@@ -268,7 +268,7 @@ html {
                     .pimg {
                         border-radius: 10%;
                         min-height: 300px;
-                        width: 400px;
+                        max-width: 400px;
                         min-width: 80px;
                         overflow: hidden;
                         display: flex;
