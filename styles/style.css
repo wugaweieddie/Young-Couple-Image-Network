@@ -275,8 +275,8 @@ html .main1 .container .bottompar .section2 .videotitle {
   color: white;
   font-size: 1.8rem;
 }
-body .main1 .container .bottompar .section2 .pimg,
-html .main1 .container .bottompar .section2 .pimg {
+body .main1 .container .bottompar .section2 .medalimg,
+html .main1 .container .bottompar .section2 .medalimg {
   border-radius: 10%;
   min-height: 300px;
   max-width: 400px;
@@ -286,8 +286,8 @@ html .main1 .container .bottompar .section2 .pimg {
   justify-content: center;
   align-items: center;
 }
-body .main1 .container .bottompar .section2 .pimg img,
-html .main1 .container .bottompar .section2 .pimg img {
+body .main1 .container .bottompar .section2 .medalimg img,
+html .main1 .container .bottompar .section2 .medalimg img {
   min-height: 300px;
   width: 400px;
   min-width: 80px;
