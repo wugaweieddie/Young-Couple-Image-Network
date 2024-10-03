@@ -265,7 +265,26 @@ html {
                         font-size: 1.8rem;
                     }
 
-                    .par2leftimg {}
+                    .pimg {
+                        border-radius: 10%;
+                        min-height: 300px;
+                        width: 400px;
+                        min-width: 80px;
+                        overflow: hidden;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        // border: 5px solid white;
+
+                        img {
+                            min-height: 300px;
+                            width: 400px;
+                            min-width: 80px;
+                            transition: all 0.8;
+                            border: 5px solid white;
+                            border-radius: 10%;
+                        }
+                    }
 
                     .par2leftbottom {
                         background: linear-gradient(180deg, rgba(30, 212, 173, 0.2), rgba(206, 194, 194, 0.7)), url(../images/bottombg.jpg);
@@ -369,6 +388,7 @@ html {
                             .left {
                                 min-height: 19.5vw;
                                 margin-top: 30px;
+
                                 .leftbox {
                                     min-height: 19.5vw;
                                     display: flex;
@@ -380,6 +400,7 @@ html {
                                         font-size: 1.5rem;
                                         font-weight: bolder;
                                     }
+
                                     .imgout {
                                         min-height: 300px;
                                         min-width: 300px;
@@ -392,6 +413,7 @@ html {
                                             // border-radius: 50%;
                                             height: 300px;
                                             width: 300px;
+
                                             &:hover {
                                                 transform: scale(1.2);
                                                 transition: 1s;

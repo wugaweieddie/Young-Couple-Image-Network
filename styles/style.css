@@ -275,6 +275,26 @@ html .main1 .container .bottompar .section2 .videotitle {
   color: white;
   font-size: 1.8rem;
 }
+body .main1 .container .bottompar .section2 .pimg,
+html .main1 .container .bottompar .section2 .pimg {
+  border-radius: 10%;
+  min-height: 300px;
+  width: 400px;
+  min-width: 80px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .main1 .container .bottompar .section2 .pimg img,
+html .main1 .container .bottompar .section2 .pimg img {
+  min-height: 300px;
+  width: 400px;
+  min-width: 80px;
+  transition: all 0.8;
+  border: 5px solid white;
+  border-radius: 10%;
+}
 body .main1 .container .bottompar .section2 .par2leftbottom,
 html .main1 .container .bottompar .section2 .par2leftbottom {
   background: linear-gradient(180deg, rgba(30, 212, 173, 0.2), rgba(206, 194, 194, 0.7)), url(../images/bottombg.jpg);
