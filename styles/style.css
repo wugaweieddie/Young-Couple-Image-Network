@@ -891,6 +891,12 @@ html .footer p {
     margin-right: 15px;
     opacity: 0.7;
   }
+  body .addline img {
+    width: 5rem;
+    height: 5rem;
+    margin-right: 15px;
+    opacity: 1;
+  }
   body header nav .logo .navbar-brand {
     display: flex;
     align-items: center;
